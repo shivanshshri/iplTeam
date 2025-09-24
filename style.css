@@ -313,3 +313,13 @@ footer{
         font-size: 1rem;
     }
 }
+@media(max-width:550px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
